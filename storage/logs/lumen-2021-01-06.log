@@ -1,0 +1,597 @@
+[2021-01-06 00:48:18] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('make:migrate')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-01-06 00:48:28] local.ERROR: Not enough arguments (missing: "name"). {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Not enough arguments (missing: \"name\"). at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Input\\Input.php:76)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(250): Symfony\\Component\\Console\\Input\\Input->validate()
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2021-01-06 00:50:47] local.ERROR: Not enough arguments (missing: "name"). {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Not enough arguments (missing: \"name\"). at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Input\\Input.php:76)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(250): Symfony\\Component\\Console\\Input\\Input->validate()
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2021-01-06 01:22:40] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:29] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:33] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:34] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:34] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:35] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:36] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:36] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:23:38] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:26:06] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:26:41] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:27)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#4 {main}
+"} 
+[2021-01-06 01:28:15] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:22)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(22): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 22, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:28:29] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:22)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(22): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 22, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:31:11] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:22)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(22): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 22, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:31:15] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:22)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(22): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 22, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:32:36] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:24)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(24): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 24, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:32:41] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:24)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(24): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 24, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:32:43] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:24)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(24): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 24, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:39:25] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:24)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(24): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 24, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:39:39] local.ERROR: Undefined variable: route {"exception":"[object] (ErrorException(code: 0): Undefined variable: route at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:24)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(24): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 24, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-06 01:46:51] local.ERROR: Command "make" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('make')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-01-06 01:46:57] local.ERROR: Command "make:model" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:model\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('make:model')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-01-06 01:47:18] local.ERROR: Command "make:model" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:model\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('make:model')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-01-06 01:51:27] local.ERROR: Command "make:controller" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:controller\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('make:controller')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-01-06 01:58:23] local.ERROR: Command "make:controller" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:controller\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('make:controller')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-01-06 02:23:24] local.ERROR: Class 'App\Http\Controllers\posts' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Controllers\\posts' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Controllers\\PostController.php:23)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PostController->store(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\PostController), 'store', Array)
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#24 {main}
+"} 
+[2021-01-06 02:23:46] local.ERROR: Class 'App\Http\Controllers\post' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Controllers\\post' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Controllers\\PostController.php:23)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PostController->store(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\PostController), 'store', Array)
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#24 {main}
+"} 
+[2021-01-06 02:24:09] local.ERROR: Class 'App\Http\Controllers\Post' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Controllers\\Post' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Controllers\\PostController.php:23)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PostController->store(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\PostController), 'store', Array)
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#24 {main}
+"} 
+[2021-01-06 03:03:35] local.ERROR: Class 'App\Http\Controllers\Post' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Controllers\\Post' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Controllers\\PostController.php:23)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PostController->store(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\PostController), 'store', Array)
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#24 {main}
+"} 
+[2021-01-06 03:03:43] local.ERROR: Class 'App\Http\Controllers\Post' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Controllers\\Post' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Controllers\\PostController.php:23)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PostController->store(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\PostController), 'store', Array)
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#24 {main}
+"} 
+[2021-01-06 03:03:45] local.ERROR: Class 'App\Http\Controllers\Post' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Controllers\\Post' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Controllers\\PostController.php:23)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\PostController->store(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\PostController), 'store', Array)
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#24 {main}
+"} 
+[2021-01-06 03:05:10] local.ERROR: Trait 'Illuminate\Database\Eloquent\Factories\HasFactory' not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Models\\Post.php:16)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:09:29] local.ERROR: syntax error, unexpected '}', expecting end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting end of file at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Controllers\\PostController.php:33)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\wamp64\\\\www\\\\b...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 [internal function]: spl_autoload_call('App\\\\Http\\\\Contro...')
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(809): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#24 {main}
+"} 
+[2021-01-06 03:09:41] local.ERROR: Target class [App\Http\Controllers\PostController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Controllers\\PostController] does not exist. at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php:811)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#20 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\PostController does not exist at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php:809)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(809): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Http\\Middleware\\Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#11 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#21 {main}
+"} 
+[2021-01-06 03:20:25] local.ERROR: Trait 'App\HasFactory' not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait 'App\\HasFactory' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:16)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:21:38] local.ERROR: Trait 'App\HasFactory' not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait 'App\\HasFactory' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:16)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:23:42] local.ERROR: Trait 'Illuminate\Database\Eloquent\Factories\HasFactory' not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:24:57] local.ERROR: Trait 'App\HasFactory' not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait 'App\\HasFactory' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:25:17] local.ERROR: Class App\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTIdentifier, Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTCustomClaims) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:19)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:25:46] local.ERROR: Class App\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTIdentifier, Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTCustomClaims) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:26:05] local.ERROR: Class App\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTIdentifier, Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTCustomClaims) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:26:15] local.ERROR: Class App\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTIdentifier, Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTCustomClaims) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:26:16] local.ERROR: Class App\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTIdentifier, Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTCustomClaims) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:26:17] local.ERROR: Class App\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTIdentifier, Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTCustomClaims) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-06 03:30:50] local.ERROR: Class App\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\Post contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTIdentifier, Tymon\\JWTAuth\\Contracts\\JWTSubject::getJWTCustomClaims) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\app\\Post.php:12)
+[stacktrace]
+#0 {main}
+"} 

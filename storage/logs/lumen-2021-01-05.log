@@ -1,0 +1,562 @@
+[2021-01-05 11:43:26] local.ERROR: {closure}(): Failed opening required 'C:\wamp64\www\backend-exam\api\malakiasExam\bootstrap/../routes/web.php' (include_path='.;C:\php\pear') {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): {closure}(): Failed opening required 'C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap/../routes/web.php' (include_path='.;C:\\php\\pear') at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php:112)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(80): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct()
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(67): Laravel\\Lumen\\Application->fatalErrorFromPhpError()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(55): Laravel\\Lumen\\Application->handleShutdown()
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(0): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure:C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php:54-56}()
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure:C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php:111-113}()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func:{C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php:62}()
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): ()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(0): {main}()
+#9 {main}
+"} 
+[2021-01-05 11:43:34] local.ERROR: {closure}(): Failed opening required 'C:\wamp64\www\backend-exam\api\malakiasExam\bootstrap/../routes/web.php' (include_path='.;C:\php\pear') {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): {closure}(): Failed opening required 'C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap/../routes/web.php' (include_path='.;C:\\php\\pear') at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php:112)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(80): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct()
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(67): Laravel\\Lumen\\Application->fatalErrorFromPhpError()
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(55): Laravel\\Lumen\\Application->handleShutdown()
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(0): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure:C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php:54-56}()
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure:C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php:111-113}()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func:{C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php:62}()
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): ()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(0): {main}()
+#9 {main}
+"} 
+[2021-01-05 15:45:28] local.ERROR: There are no commands defined in the "jwt" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"jwt\" namespace. at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:605)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(656): Symfony\\Component\\Console\\Application->findNamespace('jwt')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('jwt:secret')
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-01-05 15:46:33] local.ERROR: There are no commands defined in the "jwt" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"jwt\" namespace. at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:605)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(656): Symfony\\Component\\Console\\Application->findNamespace('jwt')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('jwt:secret')
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-01-05 15:47:52] local.ERROR: There are no commands defined in the "jwt" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"jwt\" namespace. at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:605)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(656): Symfony\\Component\\Console\\Application->findNamespace('jwt')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('jwt:secret')
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-01-05 15:47:55] local.ERROR: There are no commands defined in the "jwt" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"jwt\" namespace. at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:605)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(656): Symfony\\Component\\Console\\Application->findNamespace('jwt')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('jwt:secret')
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-01-05 15:48:04] local.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'homestead'@'localhost' (using password: YES) (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'homestead'@'localhost' (using password: YES) (SQL: select * from information_schema.tables where table_schema = homestead and table_name = migrations and table_type = 'BASE TABLE') at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php:671)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(631): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'homestead'@'localhost' (using password: YES) at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php(70): PDO->__construct('mysql:host=127....', 'homestead', 'secret', Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'homestead', 'secret', Array)
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(926): call_user_func(Object(Closure))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(961): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(405): Illuminate\\Database\\Connection->getReadPdo()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(331): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(664): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from i...', Array)
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(631): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#24 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#25 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 {main}
+"} 
+[2021-01-05 15:49:03] local.ERROR: SQLSTATE[HY000] [1049] Unknown database 'malakiasexam' (SQL: select * from information_schema.tables where table_schema = malakiasExam and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'malakiasexam' (SQL: select * from information_schema.tables where table_schema = malakiasExam and table_name = migrations and table_type = 'BASE TABLE') at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php:671)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(631): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'malakiasexam' at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(926): call_user_func(Object(Closure))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(961): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(405): Illuminate\\Database\\Connection->getReadPdo()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(331): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(664): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from i...', Array)
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(631): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#24 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#25 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 {main}
+"} 
+[2021-01-05 15:49:07] local.ERROR: SQLSTATE[HY000] [1049] Unknown database 'malakiasexam' (SQL: select * from information_schema.tables where table_schema = malakiasExam and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'malakiasexam' (SQL: select * from information_schema.tables where table_schema = malakiasExam and table_name = migrations and table_type = 'BASE TABLE') at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php:671)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(631): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'malakiasexam' at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(926): call_user_func(Object(Closure))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(961): Illuminate\\Database\\Connection->getPdo()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(405): Illuminate\\Database\\Connection->getReadPdo()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(331): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(664): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from i...', Array)
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(631): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Connection.php(339): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(608): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(93): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(64): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#23 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#24 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#25 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 {main}
+"} 
+[2021-01-05 15:53:17] local.ERROR: There are no commands defined in the "jwt" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"jwt\" namespace. at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:605)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(656): Symfony\\Component\\Console\\Application->findNamespace('jwt')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('jwt:secret')
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-01-05 16:09:28] local.ERROR: Command "make:model" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:model\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('make:model')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-01-05 16:09:46] local.ERROR: Not enough arguments (missing: "name"). {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Not enough arguments (missing: \"name\"). at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Input\\Input.php:76)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(250): Symfony\\Component\\Console\\Input\\Input->validate()
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2021-01-05 16:21:50] local.ERROR: Class 'CreatePostsTable' not found {"exception":"[object] (Error(code: 0): Class 'CreatePostsTable' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php:453)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(189): Illuminate\\Database\\Migrations\\Migrator->resolve('2020_11_28_0606...')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(165): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\wamp64\\\\www\\\\b...', 1, false)
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(110): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(72): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 {main}
+"} 
+[2021-01-05 16:21:55] local.ERROR: Class 'CreatePostsTable' not found {"exception":"[object] (Error(code: 0): Class 'CreatePostsTable' not found at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php:453)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(189): Illuminate\\Database\\Migrations\\Migrator->resolve('2020_11_28_0606...')
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(165): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\wamp64\\\\www\\\\b...', 2, false)
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(110): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(72): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Migrations\\Migrator.php(541): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#6 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#7 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#10 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#11 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#12 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\illuminate\\console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 {main}
+"} 
+[2021-01-05 16:29:55] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:30:01] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:30:03] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:30:04] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:30:05] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:30:32] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:31:16] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:32:25] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:34:31] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:39:38] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:40:02] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:44:42] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:49:09] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:50:53] local.ERROR: Call to undefined method Laravel\Lumen\Application::post() {"exception":"[object] (Error(code: 0): Call to undefined method Laravel\\Lumen\\Application::post() at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require()
+#1 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#5 {main}
+"} 
+[2021-01-05 16:51:08] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:57:11] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 16:57:48] local.ERROR: {closure}(): Failed opening required 'C:\wamp64\www\backend-exam\api\malakiasExam\bootstrap/../routes/api.php' (include_path='.;C:\php\pear') {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): {closure}(): Failed opening required 'C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap/../routes/api.php' (include_path='.;C:\\php\\pear') at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php:124)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-05 16:57:52] local.ERROR: {closure}(): Failed opening required 'C:\wamp64\www\backend-exam\api\malakiasExam\bootstrap/../routes/api.php' (include_path='.;C:\php\pear') {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): {closure}(): Failed opening required 'C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap/../routes/api.php' (include_path='.;C:\\php\\pear') at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php:124)
+[stacktrace]
+#0 {main}
+"} 
+[2021-01-05 17:02:34] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 17:02:57] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 17:04:41] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\artisan(18): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
+[2021-01-05 17:13:39] local.ERROR: Unable to resolve route handler. {"exception":"[object] (RuntimeException(code: 0): Unable to resolve route handler. at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php:295)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#2 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#6 {main}
+"} 
+[2021-01-05 17:15:39] local.ERROR: Undefined variable: app {"exception":"[object] (ErrorException(code: 0): Undefined variable: app at C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php:20)
+[stacktrace]
+#0 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\outes\\web.php(20): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\wamp64\\\\www\\\\b...', 20, Array)
+#1 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(111): require('C:\\\\wamp64\\\\www\\\\b...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\bootstrap\\app.php(112): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\wamp64\\www\\backend-exam\\api\\malakiasExam\\public\\index.php(14): require('C:\\\\wamp64\\\\www\\\\b...')
+#6 {main}
+"} 
